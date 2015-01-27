@@ -37,7 +37,5 @@
 		"ini": "^1.2.0",
 		"osenv": "^0.1.0",
 		"github-url-from-git": "1.3.0",
-    "ep_desktop_notifications": "^0.0.9",
-    "ep_cursortrace": "2.0.15"
   }
 }
