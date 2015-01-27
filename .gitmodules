@@ -1,3 +1,4 @@
 [submodule "etherpad-lite"]
 	path = etherpad-lite
-	url = https://github.com/ford-perfect/etherpad-lite
+	url = git@github.com:ford-perfect/etherpad-lite.git
+	branch = develop
