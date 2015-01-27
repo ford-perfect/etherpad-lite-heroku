@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/talexand/etherpad-lite.git"
+    "url": "https://github.com/ford-perfect/etherpad-lite.git"
   },
   "keywords": [
     "heroku",
