@@ -74,17 +74,17 @@
   /* Users for basic authentication. is_admin = true gives access to /admin.
      If you do not uncomment this, /admin will not be available! */
   
-  "users": {
-    "admin": {
-      "password": "adminsarestupid_2.x_nodejs_sucks",
-      "is_admin": true
-    },
-    "vadim": {
-      "password": "shitintheface",
-      "is_admin": false
-    }
-  },
- 
+
+
+
+  //ford-perfect moved in env
+
+
+
+
+
+
+
 
   // restrict socket.io transport methods
   "socketTransportProtocols" : ["xhr-polling", "jsonp-polling", "htmlfile"],

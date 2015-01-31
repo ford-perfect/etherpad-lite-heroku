@@ -16,7 +16,13 @@ settings = {
   defaultPadText: '',
   editOnly: true,
   requireSession: true,
-  title: '',
+  title: 'Etherpad',
+  users: {
+    admin: {
+      password: ENV['ADMIN_PASSWORD'],
+      is_admin: true
+    }
+  },
 }.merge(JSON.parse(File.read(ENV.fetch('ETHERPAD_SETTINGS'))))
 
 # Write the settings hash out as JSON.
