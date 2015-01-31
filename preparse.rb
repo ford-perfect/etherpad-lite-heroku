@@ -23,6 +23,7 @@ settings = {
       is_admin: true
     }
   },
+  sessionKey: ENV['SECRET_KEY'],
 }.merge(JSON.parse(File.read(ENV.fetch('ETHERPAD_SETTINGS'))))
 
 # Write the settings hash out as JSON.
